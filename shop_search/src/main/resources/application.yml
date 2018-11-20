@@ -1,0 +1,12 @@
+server:
+  port: 8082
+spring:
+  data:
+    solr:
+      host: http://192.168.72.172:8080/solr
+
+dubbo:
+  application:
+    name: shop_back
+  registry:
+    address: zookeeper://192.168.72.172:2181
